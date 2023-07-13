@@ -5,7 +5,7 @@ public class App {
         
         Scanner sc = new Scanner(System.in);
 
-        int i, total=0;
+        int i, total=0; 
         boolean isEven = true;  
 
         while(isEven) {
