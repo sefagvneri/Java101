@@ -12,8 +12,10 @@ public class App {
         n1 = sc.nextInt();
         System.out.println("Enter the n2: ");
         n2 = sc.nextInt();
+        int i = n1;
 
-        for(int i=n1; i>=1; i--){
+        while(i>=1){
+            
             if(n1 % i == 0 && n2 % i == 0){
                 ebob = i;
                 System.out.println("EBOB of n1 and n2 : " + i);
@@ -21,6 +23,7 @@ public class App {
                 System.out.println("EKOK of n1 and n2 : " + ekok);
                 break;
             }
+            i--;
         }
     }
 }
